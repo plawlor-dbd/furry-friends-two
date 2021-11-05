@@ -24,6 +24,7 @@ function App() {
         setIsLoading(loading => !loading);
       }
     };
+    
 
     loadPictures();
   }, [selectedBreedId]);
